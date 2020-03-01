@@ -14,11 +14,14 @@
 #   Test Package:              'Cmd + Shift + T'
 
 
-#' a helper method to print Hello {name}
+#' a helper method to print name
 #'
 #' @return a string
 #'
-#' @examples hello("Bob")
+#' @param name input name
+#'
+#' @examples
+#' hello("Bob")
 hello <- function(name) {
   print(name)
 }
