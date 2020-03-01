@@ -20,7 +20,7 @@
 #'
 #' @examples hello("Bob")
 hello <- function(name) {
-  print(paste("Hello", name))
+  print(name)
 }
 
 #' A helper method to double an integer

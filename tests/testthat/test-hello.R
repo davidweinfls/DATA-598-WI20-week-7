@@ -1,7 +1,7 @@
 context("File R/hello.R")
 
 test_that("hello()", {
-  expect_equal(hello("Bob"), "Hello Bob")
+  expect_equal(hello("Bob"), "Bob")
 })
 
 test_that("double()", {
