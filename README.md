@@ -24,3 +24,5 @@ library(mysimplecompedium)
 ## basic example code
 ```
 
+## Code of Conduct
+See [this](./CODE_OF_CONDUCT.md). By participating in this project you agree to follow its terms.
