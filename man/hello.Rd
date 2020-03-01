@@ -2,11 +2,11 @@
 \alias{hello}
 \title{Hello, World!}
 \usage{
-hello()
+hello("Hello, world!")
 }
 \description{
 Prints 'Hello, world!'.
 }
 \examples{
-hello()
+hello("Tom")
 }
