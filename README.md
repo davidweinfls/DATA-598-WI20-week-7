@@ -2,7 +2,6 @@
 # mysimplecompedium
 
 <!-- badges: start -->
-[![R build status](https://github.com/davidweinfls/DATA-598-WI20-week-7/workflows/R-CMD-check/badge.svg)](https://github.com/davidweinfls/DATA-598-WI20-week-7/actions)
 <!-- badges: end -->
 
 The goal of mysimplecompedium is to ...
@@ -25,4 +24,6 @@ library(mysimplecompedium)
 ```
 
 ## Code of Conduct
-See [this](./CODE_OF_CONDUCT.md). By participating in this project you agree to follow its terms.
+  
+Please note that the mysimplecompedium project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
+

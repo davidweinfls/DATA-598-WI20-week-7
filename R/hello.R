@@ -34,16 +34,17 @@ double <- function(x) {
   x*2
 }
 
-usethis::use_code_of_conduct()
 
-usethis::use_tidy_contributing()
+#usethis::use_code_of_conduct()
 
-usethis::use_mit_license("David Wei")
+#usethis::use_tidy_contributing()
 
-usethis::use_readme_md()
+#usethis::use_mit_license("David Wei")
+
+#usethis::use_readme_md()
 
 # add tests
-usethis::use_testthat()
+#usethis::use_testthat()
 
 # make function file the active window, then run
-usethis::use_test()
+#usethis::use_test()
