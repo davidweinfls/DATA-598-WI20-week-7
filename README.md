@@ -6,7 +6,7 @@
 [![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/davidweinfls/DATA-598-WI20-week-7/master?urlpath=rstudio)
 <!-- badges: end -->
 
-The goal of mysimplecompedium is to ...
+The goal of mysimplecompedium is to build a R project with Continuous Integration for class participation.
 
 ## Installation
 
@@ -15,6 +15,8 @@ You can install the released version of mysimplecompedium from [CRAN](https://CR
 ``` r
 install.packages("mysimplecompedium")
 ```
+
+Consider to install rrtools using `devtools::install_github("benmarwick/rrtools")`
 
 ## Example
 
