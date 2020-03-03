@@ -4,7 +4,7 @@ FROM rocker/verse:3.5.3
 # required
 MAINTAINER David Wei <ywei1@uw.edu>
 
-COPY . /tests
+COPY . /DATA-598-WI20-week-7
 
 # go into the repo directory
 RUN . /etc/environment \
