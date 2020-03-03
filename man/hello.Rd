@@ -2,10 +2,13 @@
 \alias{hello}
 \title{Hello, World!}
 \usage{
-hello("Hello, world!")
+hello(name)
+}
+\arguments{
+\item{name}{a string}
 }
 \description{
-Prints 'Hello, world!'.
+Prints 'name'.
 }
 \examples{
 hello("Tom")

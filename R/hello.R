@@ -1,25 +1,9 @@
-# Hello, world!
-#
-# This is an example function named 'hello'
-# which prints 'Hello, world!'.
-#
-# You can learn more about package authoring with RStudio at:
-#
-#   http://r-pkgs.had.co.nz/
-#
-# Some useful keyboard shortcuts for package authoring:
-#
-#   Build and Reload Package:  'Cmd + Shift + B'
-#   Check Package:             'Cmd + Shift + E'
-#   Test Package:              'Cmd + Shift + T'
-
-
 #' a helper method to print name
 #'
 #' @return a string
 #'
 #' @param name input name
-#'
+#' @export
 #' @examples
 #' hello("Bob")
 hello <- function(name) {
@@ -31,7 +15,7 @@ hello <- function(name) {
 #' @param x
 #'
 #' @return doubled x
-#'
+#' @export
 #' @examples double(10) => 20
 double <- function(x) {
   x*2
