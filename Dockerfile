@@ -13,6 +13,5 @@ RUN . /etc/environment \
   && sudo apt-get update \
   && sudo apt-get install libudunits2-dev -y \
   # build this compendium package
-  # && R -e "devtools::install('/DATA-598-WI20-week-7', dep=TRUE)" \ 
-  && R -e "devtools::install('/tests', dep=TRUE)" \
-  && R -e "devtools::check('/tests')"
+  && R -e "devtools::install('/DATA-598-WI20-week-7', dep=TRUE)" \
+  && R -e "devtools::check('/DATA-598-WI20-week-7')"
